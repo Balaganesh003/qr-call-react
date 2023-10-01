@@ -1,12 +1,11 @@
+import QRScanner from '@/components/QRScanner';
+import QRCodeManager from '@/components/QRCodeManager';
+
 export default function Home() {
-  return (
-    <main
-      className={`min-h-screen  p-24`}>
-      <h1
-        className={`text-6xl font-bold text-center`}>
-        Hello
-        World
-      </h1>
-    </main>
-  );
+	return (
+		<main className={``}>
+			<QRScanner />
+			<QRCodeManager />
+		</main>
+	);
 }
